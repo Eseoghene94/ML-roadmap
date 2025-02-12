@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Science & ML Roadmap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="gradient-bg">
+      <div id="login-container" class="login-container">
+        <div class="login-card">
+          <i class="fas fa-graduation-cap login-icon"></i>
+          <h2>Welcome to CODEwithESE</h2>
+          <p>Please enter your details to continue</p>
+          <form id="login-form" class="login-form">
+            <div class="form-group">
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                id="username"
+                required
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="form-group">
+              <i class="fas fa-envelope"></i>
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="Your Email"
+              />
+            </div>
+            <button type="submit" class="login-button">
+              Start Learning
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div id="main-content" class="main-content hidden">
+        <header class="hero">
+          <div class="hero-content">
+            <div id="welcome-message" class="welcome-message"></div>
+            <h1 class="glowing-text">
+              <i class="fas fa-code"></i> CODEwithESE
+            </h1>
+            <div class="subtitle">Your best bet for all tech knowledge</div>
+            <h2 class="roadmap-title">
+              <i class="fas fa-road"></i> Data Science & Machine Learning
+              Roadmap
+            </h2>
+            <p class="hero-desc">
+              <i class="fas fa-calendar-alt"></i> A Two-Month Learning Path to
+              Mastery
+            </p>
+            <div class="hero-features">
+              <div class="feature">
+                <i class="fas fa-rocket"></i>
+                <h3>Fast-Track Learning</h3>
+                <p>
+                  Zero to hero in just 8 weeks with our carefully crafted
+                  curriculum
+                </p>
+              </div>
+              <div class="feature">
+                <i class="fas fa-hands-helping"></i>
+                <h3>1-on-1 Support</h3>
+                <p>
+                  Get personalized guidance throughout your learning journey
+                </p>
+              </div>
+              <div class="feature">
+                <i class="fas fa-certificate"></i>
+                <h3>Industry Ready</h3>
+                <p>
+                  Build a portfolio of real-world projects that employers love
+                </p>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="timeline">
+          <div class="weeks-container"></div>
+        </section>
+
+        <section class="cta-section">
+          <div class="cta-content">
+            <h2>
+              <i class="fas fa-gift"></i> Happy Valentine's Day! <br />May your
+              code be bug-free and your models highly accurate! ❤️
+            </h2>
+            <div id="valentine-message" class="valentine-message hidden">
+              <i class="fas fa-heart"></i>
+              <p></p>
+            </div>
+            <!-- <button id="valentine-button" class="valentine-button">
+              Click Me!
+            </button> -->
+          </div>
+        </section>
+
+        <footer>
+          <p><i class="fas fa-heart"></i> Designed by CODEwithESE | © 2025</p>
+        </footer>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
